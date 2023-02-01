@@ -1,5 +1,5 @@
 # MASV webhook handler
-This is a solution for MASV. It allows of the uploader in a Portal to specify a recipient email address so the notification can be sent to a specific person dynamically.
+This is a solution for MASV. It allows the uploader in a Portal to specify a recipient email address so the notification can be sent to a specific person dynamically.
 
 1. Create a Lambda function in AWS using the code in lambda_function.py. Enable a public Function URL.
 2. Create a MASV Portal with a Custom Form and add a new required field called Recipient Email with a key of recipient_email.
